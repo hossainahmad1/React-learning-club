@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-        <h2> MY LEARNING CLUB</h2>
+        <h2 className='page'> MY LEARNING CLUB</h2>
         <h3>Select Your works</h3>
       </div>
       <Work></Work>
