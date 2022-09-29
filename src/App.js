@@ -1,5 +1,6 @@
 
 import './App.css';
+import Component from './component/Question/Component';
 import Work from './component/Work/Work';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <h3>Select Your works</h3>
       </div>
       <Work></Work>
+      <Component></Component>
     </div>
   );
 }

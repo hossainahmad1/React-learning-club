@@ -1,0 +1,22 @@
+.ans {
+    font-weight: 700;
+}
+
+.total-content {
+    margin: 40px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.qus {
+    text-align: center;
+}
+
+.content {
+    background-color: darkgray;
+    padding: 20px;
+    margin-bottom: 36px;
+    border-radius: 8px;
+}
