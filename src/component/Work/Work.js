@@ -28,7 +28,7 @@ const Work = () => {
     return (
         <div className='work'>
             <div className='work-container'>
-                
+
                 {
                     works.map(work => <Working
                         key={work.id}
