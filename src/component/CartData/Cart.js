@@ -11,7 +11,7 @@ const Cart = ({ list }) => {
     for (const time of list) {
         total = total + time.time;
     }
-    const [breakw, setBreak] = useState('');
+    const [breaki, setBreak] = useState('');
 
     const handleBreak = (e) => {
         setBreak(e)
@@ -26,6 +26,21 @@ const Cart = ({ list }) => {
                     <div className='my-data'>
                         <h4 className='my-name'>Hossain Ahmad</h4>
                         <p><small>Pabna,Bangladesh</small></p>
+                    </div>
+
+                </div>
+                <div className='my-biodata'>
+                    <div>
+                        <h3>75<small>kg</small></h3>
+                        <p>weight</p>
+                    </div>
+                    <div>
+                        <h3>6.8</h3>
+                        <p>Height</p>
+                    </div>
+                    <div>
+                        <h3>21<small>yrs</small></h3>
+                        <p>Age</p>
                     </div>
                 </div>
             </div>
@@ -47,7 +62,7 @@ const Cart = ({ list }) => {
             </div>
             <div className='l-time'>
                 <h5>Break time</h5>
-                <p>{setData()} hours</p>
+                <p>{setData()}inutes</p>
             </div>
             <div>
                 <button className='btn-active'>Activity completed</button>

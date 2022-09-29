@@ -67,3 +67,11 @@
     margin-top: 21px;
     margin-bottom: 0px;
 }
+
+.my-biodata {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    border-radius: 10px;
+    margin-top: 10px;
+}

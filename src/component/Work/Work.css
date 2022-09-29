@@ -11,8 +11,14 @@
     gap: 30px;
 }
 
+
+@media screen and (max-width:1200px) {
+    .work-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .cart-container {
     position: sticky;
-
     top: 0;
 }
