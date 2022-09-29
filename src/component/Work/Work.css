@@ -1,7 +1,7 @@
 .work {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    position: relative;
+    /* position: relative; */
 }
 
 .work-container {
@@ -13,5 +13,6 @@
 
 .cart-container {
     position: sticky;
-    bottom: 0;
+
+    top: 0;
 }

@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
+import logo from '../utilities/IMG.jpg'
+import { getData, setData } from '../utilities/db';
 const Cart = ({ list }) => {
     console.log(list)
     // const timeStrg = list.time;
@@ -9,17 +11,32 @@ const Cart = ({ list }) => {
     for (const time of list) {
         total = total + time.time;
     }
+    const [breakw, setBreak] = useState('')
+    const handleBreak = (e) => {
+        setBreak(e)
+        getData(e)
+    }
     return (
 
         <div className='listCart'>
             <div>
+                <div className='my-details'>
+                    <img src={logo} alt="" />
+                    <div className='my-data'>
+                        <h4 className='my-name'>Hossain Ahmad</h4>
+                        <p><small>Pabna,Bangladesh</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
                 <h3>Add to Break</h3>
                 <div className='break'>
-                    <p>10h</p>
-                    <p>20h</p>
-                    <p>30h</p>
-                    <p>40h</p>
-                    <p>50h</p>
+                    <p onClick={(e) => handleBreak(e.target.innerText)}>10m</p>
+                    <p onClick={(e) => handleBreak(e.target.innerText)}>20m</p>
+                    <p onClick={(e) => handleBreak(e.target.innerText)}>30m</p>
+                    <p onClick={(e) => handleBreak(e.target.innerText)}>40m</p>
+                    <p onClick={(e) => handleBreak(e.target.innerText)}>50m</p>
                 </div>
             </div>
             <h3>Leraning Details</h3>
@@ -29,7 +46,7 @@ const Cart = ({ list }) => {
             </div>
             <div className='l-time'>
                 <h5>Break time</h5>
-                <p>{ } hours</p>
+                <p>{setData()} hours</p>
             </div>
             <div>
                 <button className='btn-active'>Activity completed</button>

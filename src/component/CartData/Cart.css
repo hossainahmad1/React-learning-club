@@ -47,3 +47,23 @@
     background-color: blue;
     color: white;
 }
+
+.my-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgray;
+    border-radius: 10px;
+
+}
+
+.my-details img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.my-name {
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
