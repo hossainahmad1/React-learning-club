@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Cart.css'
 import logo from '../utilities/IMG.jpg'
-import { getData, setData } from '../utilities/db';
+import { getData, setData } from '../utilities/dataBase';
 const Cart = ({ list }) => {
     console.log(list)
     // const timeStrg = list.time;
