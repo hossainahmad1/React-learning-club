@@ -11,7 +11,8 @@ const Cart = ({ list }) => {
     for (const time of list) {
         total = total + time.time;
     }
-    const [breakw, setBreak] = useState('')
+    const [breakw, setBreak] = useState('');
+
     const handleBreak = (e) => {
         setBreak(e)
         getData(e)
