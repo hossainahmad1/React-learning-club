@@ -1,0 +1,11 @@
+.work {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    gap: 30px;
+}
