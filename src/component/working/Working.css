@@ -1,12 +1,12 @@
 .working-place {
     border: 1px solid #95A0A7;
     border-radius: 10px;
-}
 
+}
 
 .working-place img {
     width: 286px;
-    height: 286px;
+    height: 250px;
     margin: 0px 10px;
     border-radius: 10px;
 
@@ -16,18 +16,19 @@
     margin-bottom: 8px;
 }
 
-.working-place .btn-work {
+.btn-work {
     width: 100%;
     background-color: blue;
-    height: 30px;
+    height: 35px;
     color: aliceblue;
     padding: 10px;
     border: none;
     border-radius: 10px;
+
 }
 
-.working-place.btn-work:hover {
-    background-color: mediumturquoise;
+.working-place .btn-work:hover {
+    background-color: darkorange;
 }
 
 .working-info {
