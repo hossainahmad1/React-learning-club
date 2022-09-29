@@ -18,6 +18,12 @@
     }
 }
 
+@media screen and (max-width:576px) {
+    .work-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .cart-container {
     position: sticky;
     top: 0;
