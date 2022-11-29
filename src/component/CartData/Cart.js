@@ -31,7 +31,7 @@ const Cart = ({ list }) => {
                 </div>
                 <div className='my-biodata'>
                     <div>
-                        <h3>75<small>kg</small></h3>
+                        <h3>60<small>kg</small></h3>
                         <p>weight</p>
                     </div>
                     <div>
@@ -44,7 +44,6 @@ const Cart = ({ list }) => {
                     </div>
                 </div>
             </div>
-
             <div>
                 <h3>Add to Break</h3>
                 <div className='break'>
@@ -62,7 +61,7 @@ const Cart = ({ list }) => {
             </div>
             <div className='l-time'>
                 <h5>Break time</h5>
-                <p>{setData()}inutes</p>
+                <p>{setData()}minutes</p>
             </div>
             <div>
                 <button className='btn-active'>Activity completed</button>
